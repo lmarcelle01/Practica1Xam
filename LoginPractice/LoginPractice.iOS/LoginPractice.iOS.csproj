@@ -130,4 +130,7 @@
       <Name>LoginPractice</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\AndroidLogo.png" />
+  </ItemGroup>
 </Project>
