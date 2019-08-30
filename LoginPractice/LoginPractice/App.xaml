@@ -7,5 +7,28 @@
              x:Class="LoginPractice.App">
     <Application.Resources>
 
+        <ResourceDictionary>
+            <Style TargetType="Label">
+                <Setter Property="FontSize" Value="20"></Setter>
+                <Setter Property="FontAttributes" Value="Bold"></Setter>
+                <Setter Property="TextColor" Value="Red"></Setter>
+            </Style>
+
+            <Style TargetType="Button">
+                <Setter Property="TextColor" Value="White"></Setter>
+                <Setter Property="FontAttributes" Value="Bold"></Setter>
+                <Setter Property="CornerRadius" Value="10"></Setter>
+            </Style>
+
+            <Style TargetType="Entry">
+                <Setter Property="FontSize" Value="20"></Setter>
+                <Setter Property="FontAttributes" Value="Bold"></Setter>
+            </Style>
+
+            <Color x:Key="Leave">Green</Color>
+           
+
+        </ResourceDictionary>
+
     </Application.Resources>
 </Application>

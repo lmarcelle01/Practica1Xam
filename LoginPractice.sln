@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginPractice.Android", "Lo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginPractice.iOS", "LoginPractice\LoginPractice.iOS\LoginPractice.iOS.csproj", "{3319EE40-F73F-4E1D-9B9A-FA79941F09A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginPractice", "LoginPractice\LoginPractice\LoginPractice.csproj", "{40CED2B6-D29D-4E49-8896-30AB62FBC018}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoginPractice", "LoginPractice\LoginPractice\LoginPractice.csproj", "{40CED2B6-D29D-4E49-8896-30AB62FBC018}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

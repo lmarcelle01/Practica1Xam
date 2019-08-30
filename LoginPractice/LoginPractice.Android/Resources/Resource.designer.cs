@@ -5770,7 +5770,7 @@ namespace LoginPractice.Droid
 			public const int abc_vector_test = 2131165273;
 			
 			// aapt resource value: 0x7F07005A
-			public const int AndroidLogo = 2131165274;
+			public const int android = 2131165274;
 			
 			// aapt resource value: 0x7F07005B
 			public const int avd_hide_password = 2131165275;
