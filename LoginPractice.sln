@@ -9,6 +9,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginPractice.iOS", "LoginP
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoginPractice", "LoginPractice\LoginPractice\LoginPractice.csproj", "{40CED2B6-D29D-4E49-8896-30AB62FBC018}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{8B25F556-DAC1-4ADF-8BE0-287C41428AFC}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\OneDrive\Desktop\capturesAppXam\Capture1.PNG = ..\..\..\OneDrive\Desktop\capturesAppXam\Capture1.PNG
+		..\..\..\OneDrive\Desktop\capturesAppXam\Capture2.PNG = ..\..\..\OneDrive\Desktop\capturesAppXam\Capture2.PNG
+		..\..\..\OneDrive\Desktop\capturesAppXam\Capture3.PNG = ..\..\..\OneDrive\Desktop\capturesAppXam\Capture3.PNG
+		..\..\..\OneDrive\Desktop\capturesAppXam\Capture4.PNG = ..\..\..\OneDrive\Desktop\capturesAppXam\Capture4.PNG
+		..\..\..\OneDrive\Desktop\capturesAppXam\Capture5.PNG = ..\..\..\OneDrive\Desktop\capturesAppXam\Capture5.PNG
+		..\..\..\OneDrive\Desktop\capturesAppXam\home.PNG = ..\..\..\OneDrive\Desktop\capturesAppXam\home.PNG
+		..\..\..\OneDrive\Desktop\capturesAppXam\opcion1.PNG = ..\..\..\OneDrive\Desktop\capturesAppXam\opcion1.PNG
+		..\..\..\OneDrive\Desktop\capturesAppXam\opcion2.PNG = ..\..\..\OneDrive\Desktop\capturesAppXam\opcion2.PNG
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
