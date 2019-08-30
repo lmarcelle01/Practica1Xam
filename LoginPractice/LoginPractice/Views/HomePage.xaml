@@ -6,19 +6,19 @@
              mc:Ignorable="d"
              x:Class="LoginPractice.Views.HomePage">
   <!--Pages can be added as references or inline-->
-    <ContentPage Title="Home">
+    <ContentPage Title="Home" IconImageSource="home_icon">
         <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
             <Label Text="Hello World!"/>
         </StackLayout>
     </ContentPage>
 
-    <ContentPage Title="Opcion 1">
+    <ContentPage Title="Opcion 1" IconImageSource="option_icon">
         <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
             <Label Text="This is Option 1 Page!"/>
         </StackLayout>
     </ContentPage>
 
-    <ContentPage Title="Opcion 2">
+    <ContentPage Title="Opcion 2" IconImageSource="settings_icon">
         <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
             <Label Text="This is Option 2 Page!"/>
         </StackLayout>
