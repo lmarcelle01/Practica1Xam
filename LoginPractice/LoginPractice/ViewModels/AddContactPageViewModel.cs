@@ -29,31 +29,19 @@ namespace LoginPractice.ViewModels
         public AddContactPageViewModel()
         {
 
-            MessagingCenter.Subscribe<ContactsViewModel, Contact>(this, "EditContactID", ((sender, param) =>
-            {
-                Contact = param;
-
-                MessagingCenter.Unsubscribe<ContactsViewModel, Contact>(this, "EditContactID");
-            }));
-
-            
             Contact = new Contact();
             AddNewContact = new Command(async () => {
                 MessagingCenter.Send<AddContactPageViewModel, Contact>(this, "SendContactID", Contact);
-                MessagingCenter.Send<AddContactPageViewModel, Contact>(this, "SaveEdit", Contact);
                 await App.Current.MainPage.Navigation.PopAsync();
             }
-
             );
-            
-            
+
+            MessagingCenter.Subscribe<ContactsViewModel, Contact>(this, "EditContactID", ((sender, param) =>
+            {
+                Contact = param;
+                MessagingCenter.Unsubscribe<ContactsViewModel, Contact>(this, "EditContactID");
+            }));
 
         }
-
-
     }
-
-
-
-
 }

@@ -76,20 +76,6 @@ namespace LoginPractice.ViewModels
 
             MessagingCenter.Send<ContactsViewModel, Contact>(this, "EditContactID", contact);
 
-            MessagingCenter.Subscribe<AddContactPageViewModel, Contact>(this, "SaveEdit", ((sender, param) =>
-            {
-                foreach(var Person in Contacts)
-                {
-                    if(Person == contact)
-                    {
-                        Person.Name = param.Name;
-                        Person.PhoneNumber = param.PhoneNumber;
-                    }
-                }
-                MessagingCenter.Unsubscribe<AddContactPageViewModel, Contact>(this, "SaveEdit");
-            }));
-
-
         }
 
         public void CallContact(Contact contact)
