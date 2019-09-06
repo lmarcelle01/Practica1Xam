@@ -33,19 +33,18 @@ namespace LoginPractice.ViewModels
                 }
                 else
                 {
-                    string Message = $"Hola {Student.Email}";
-                    await App.Current.MainPage.DisplayAlert("Bienvenido!", Message, "ok");
-                    await App.Current.MainPage.Navigation.PushAsync(new HomePage());
+                    await App.Current.MainPage.Navigation.PushAsync(new ContactsPage());
                 }
             }
             );
-
+             
             GoToRegisterCommand = new Command(async () => {
 
                 await App.Current.MainPage.Navigation.PushAsync(new RegisterPage());
             }
             );
         }
+
 
 
 

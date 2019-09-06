@@ -34,7 +34,7 @@ namespace LoginPractice.ViewModels
                 }
                 else
                 {
-                    await App.Current.MainPage.Navigation.PushAsync(new HomePage());
+                    await App.Current.MainPage.Navigation.PushAsync(new ContactsPage());
                 }
 
             }
