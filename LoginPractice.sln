@@ -11,6 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoginPractice", "LoginPract
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{8B25F556-DAC1-4ADF-8BE0-287C41428AFC}"
 	ProjectSection(SolutionItems) = preProject
+		..\..\..\OneDrive\Desktop\icons\Capture01.PNG = ..\..\..\OneDrive\Desktop\icons\Capture01.PNG
+		..\..\..\OneDrive\Desktop\icons\Capture02.PNG = ..\..\..\OneDrive\Desktop\icons\Capture02.PNG
+		..\..\..\OneDrive\Desktop\icons\Capture03.PNG = ..\..\..\OneDrive\Desktop\icons\Capture03.PNG
+		..\..\..\OneDrive\Desktop\icons\Capture04.PNG = ..\..\..\OneDrive\Desktop\icons\Capture04.PNG
 		..\..\..\OneDrive\Desktop\capturesAppXam\Capture1.PNG = ..\..\..\OneDrive\Desktop\capturesAppXam\Capture1.PNG
 		..\..\..\OneDrive\Desktop\capturesAppXam\Capture2.PNG = ..\..\..\OneDrive\Desktop\capturesAppXam\Capture2.PNG
 		..\..\..\OneDrive\Desktop\capturesAppXam\Capture3.PNG = ..\..\..\OneDrive\Desktop\capturesAppXam\Capture3.PNG
