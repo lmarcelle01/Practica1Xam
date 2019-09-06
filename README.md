@@ -27,3 +27,19 @@
 <p align="center">
 <img  width="400" src="./LoginPractice/Images/opcion2.PNG"/>
 </p>
+
+<p align="center">
+<img  width="400" src="./LoginPractice/Images/Capture01.PNG"/>
+</p>
+
+<p align="center">
+<img  width="400" src="./LoginPractice/Images/Capture02.PNG"/>
+</p>
+
+<p align="center">
+<img  width="400" src="./LoginPractice/Images/Capture03.PNG"/>
+</p>
+
+<p align="center">
+<img  width="400" src="./LoginPractice/Images/Capture04.PNG"/>
+</p>
