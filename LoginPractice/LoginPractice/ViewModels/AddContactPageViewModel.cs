@@ -31,6 +31,7 @@ namespace LoginPractice.ViewModels
 
             Contact = new Contact();
             AddNewContact = new Command(async () => {
+                MessagingCenter.Send<AddContactPageViewModel, Contact>(this, "SaveEdit", Contact);
                 MessagingCenter.Send<AddContactPageViewModel, Contact>(this, "SendContactID", Contact);
                 await App.Current.MainPage.Navigation.PopAsync();
             }
