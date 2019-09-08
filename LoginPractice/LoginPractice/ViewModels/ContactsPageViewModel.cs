@@ -58,15 +58,16 @@ namespace LoginPractice.ViewModels
             {
                 var Call = String.Format("Call: +{0}", param.PhoneNumber);
                 var Action = await App.Current.MainPage.DisplayActionSheet(null, "Cancel", null, Call, "Edit");
-                switch (Action)
+
+                if(Action== "Edit")
                 {
-                    case "Edit":
-                        EditContact(param);
-                        break;
-                    default:
-                        CallContact(param);
-                        break;                                     
+                    EditContact(param);
                 }
+                else if(Action == Call)
+                {
+                    CallContact(param);
+                }
+                
             });
         }
 
