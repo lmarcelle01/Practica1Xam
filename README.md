@@ -21,14 +21,6 @@
 </p>
 
 <p align="center">
-<img  width="400" src="./LoginPractice/Images/opcion1.PNG"/>
-</p>
-
-<p align="center">
-<img  width="400" src="./LoginPractice/Images/opcion2.PNG"/>
-</p>
-
-<p align="center">
 <img  width="400" src="./LoginPractice/Images/Capture01.PNG"/>
 </p>
 
