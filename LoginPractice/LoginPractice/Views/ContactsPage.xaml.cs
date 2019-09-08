@@ -16,7 +16,7 @@ namespace LoginPractice.Views
         public ContactsPage()
         {
             InitializeComponent();
-            this.BindingContext = new ContactsViewModel();
+            this.BindingContext = new ContactsPageViewModel();
         }
     }
 }

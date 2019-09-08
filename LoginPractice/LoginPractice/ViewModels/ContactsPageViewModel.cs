@@ -10,7 +10,7 @@ using Xamarin.Forms;
 
 namespace LoginPractice.ViewModels
 {
-    class ContactsViewModel: INotifyPropertyChanged
+    class ContactsPageViewModel: INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
 
@@ -34,7 +34,7 @@ namespace LoginPractice.ViewModels
         public ICommand ShowMoreCommand { get; set; }
 
         public ObservableCollection<Contact> Contacts { get; set; } = new ObservableCollection<Contact>();
-        public ContactsViewModel()
+        public ContactsPageViewModel()
         {
 
             GoToAddCommand = new Command(async () =>
@@ -73,7 +73,7 @@ namespace LoginPractice.ViewModels
         async public void EditContact(Contact contact)
         {
             await App.Current.MainPage.Navigation.PushAsync(new AddContactPage());
-            MessagingCenter.Send<ContactsViewModel, Contact>(this, "EditContactID", contact);
+            MessagingCenter.Send<ContactsPageViewModel, Contact>(this, "EditContactID", contact);
             MessagingCenter.Subscribe<AddContactPageViewModel, Contact>(this, "SaveEdit", ((sender, param) =>
             {
                 foreach(var Person in Contacts)

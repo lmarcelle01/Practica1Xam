@@ -37,10 +37,10 @@ namespace LoginPractice.ViewModels
             }
             );
 
-            MessagingCenter.Subscribe<ContactsViewModel, Contact>(this, "EditContactID", ((sender, param) =>
+            MessagingCenter.Subscribe<ContactsPageViewModel, Contact>(this, "EditContactID", ((sender, param) =>
             {
                 Contact = param;
-                MessagingCenter.Unsubscribe<ContactsViewModel, Contact>(this, "EditContactID");
+                MessagingCenter.Unsubscribe<ContactsPageViewModel, Contact>(this, "EditContactID");
             }));
 
         }

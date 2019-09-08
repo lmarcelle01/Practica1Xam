@@ -6,19 +6,21 @@
              mc:Ignorable="d"
              x:Class="LoginPractice.Views.AddContactPage">
     <ContentPage.Content>
-        <StackLayout Margin="15" Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
-            <Entry Text="{Binding Contact.Name}"
+        <ScrollView>
+            <StackLayout Margin="15" Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
+                <Entry Text="{Binding Contact.Name}"
                 Placeholder="Contact Name">
-                
-            </Entry>
-            <Entry
+
+                </Entry>
+                <Entry
                 Text="{Binding Contact.PhoneNumber}"
                 Placeholder="Contact Phone Number" 
                 Keyboard="Numeric">
-            </Entry>
-            <Button Text="Add Contact" 
+                </Entry>
+                <Button Text="Add Contact" 
                     BackgroundColor="CornflowerBlue"  
                     Command="{Binding  AddNewContact, Mode=TwoWay}"/>
-        </StackLayout>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
